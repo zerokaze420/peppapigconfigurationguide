@@ -73,7 +73,7 @@ Clash for Windows 配置是一样的，但是Clash for Windows需要在主页勾
 
 function main(config, profileName) {
   const rule = 'DOMAIN-SUFFIX,heiyu.space,DIRECT';
-  const rule_cloud = 'DOMAIN-SUFFIX,cloud.lazycat,DIRECT';
+  const rule_cloud = 'DOMAIN-SUFFIX,lazycat.cloud,DIRECT';
   // 确保 rules 存在
   if (Array.isArray(config.rules)) {
     config.rules.unshift(rule);
